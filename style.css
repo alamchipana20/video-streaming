@@ -1,0 +1,31 @@
+/* Reset de estilos y fuente predeterminada */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Encabezado */
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Video */
+video {
+    width: 90%; /* Modifica el tamaño del video según sea necesario */
+    max-width: 800px; /* Ajusta el ancho máximo del video */
+    display: block;
+    margin: 0 auto; /* Centra el video horizontalmente */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Stream</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Video Stream</h1>
+        <video id="my-video" class="video-js" controls width="640" height="360"></video>
+        <button id="start-stream">Iniciar Transmisión</button>
+        <button id="stop-stream">Detener Transmisión</button>
+        <p id="connected-devices">Conectados: 0</p>
+        <p>Enlace de la transmisión: <span id="stream-link"></span></p>
+        <button id="generate-link">Generar Enlace para Video Llamada</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
